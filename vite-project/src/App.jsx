@@ -1,19 +1,12 @@
-import Header from "./components/Header"
+import {Header,teste} from "./components/Header.modules.css"
 
 function App() {
 
  return(
-  <>
-    {/* Header */}
-    <Header/>
-
-    {/* Main */}
-    <Main/>
-
-    {/* Footer */}
-    <Footer/>
-
-  </>
+  <div>
+    <Header></Header>
+    <h1>{teste()}</h1>
+  </div>
  )
 }
 

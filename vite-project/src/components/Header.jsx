@@ -1,5 +1,5 @@
-export default function Header(){
+export function Header(){
     return(
-        <h1>Header</h1>
+         <h1>Cabeçalho</h1>
     )
 }

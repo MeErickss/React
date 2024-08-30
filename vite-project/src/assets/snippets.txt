@@ -1,7 +1,9 @@
 {	
 	"Print to console": {
-		"prefix": ".compon",
+		"prefix": ".componente",
 		"body": [
+			"import styles from "./",
+			"",
 			"export function ${1:Componente}(){",
 			"\t return(",
 			"\t\t$0",

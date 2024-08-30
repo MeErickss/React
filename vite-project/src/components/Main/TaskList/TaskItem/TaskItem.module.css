@@ -1,0 +1,10 @@
+.TaskItem{
+    border: 1px solid var(--preto);
+    border-radius: 10px;
+    padding: 0.75rem;
+    width: 30rem;
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

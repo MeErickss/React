@@ -19,7 +19,7 @@
 }
 
 .App button {
-  border: 0;
+  border: 1px solid var(--preto);
   padding: 0.5rem;
   border-radius: 10px;
 }

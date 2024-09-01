@@ -6,7 +6,7 @@ import styles from "./App.module.css"
 
 export default function App() {
 
-  function addTask(inpt){
+  function addTask(e){
     
   }
 
@@ -15,9 +15,9 @@ export default function App() {
       <Header/>
       <Main>
 
-        <form>
-          <input input type="text" placeholder="Insira o nome da tarefa"/>
-          <button button>+</button>
+        <form onSubmit={addTask()}>
+          <input type="text" placeholder="Insira o nome da tarefa"/>
+          <button type="submit">+</button>
         </form>
 
         <TaskList/>
